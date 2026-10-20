@@ -1,0 +1,8 @@
+{
+  "raw_data": "data/raw",
+  "descriptors": "data/derived/descriptors",
+  "gate_inputs": "data/derived/gate_inputs",
+  "decoder_results": "results/decoders",
+  "gate_results": "results/gates",
+  "figure_source": "data/derived/figure_source"
+}

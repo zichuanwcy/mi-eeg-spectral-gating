@@ -1,0 +1,514 @@
+{
+  "dataset": "bci2a",
+  "experiments": [
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "F0",
+      "protocol": "loso",
+      "bandpass": false,
+      "bandpass_freq": [
+        4,
+        40
+      ],
+      "alignment": "ea",
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "Wideband F0; additional 4-40 Hz band-pass omitted"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "F1",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        0.5,
+        4
+      ],
+      "alignment": "ea",
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "0.5-4 Hz input"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "F2",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        4,
+        8
+      ],
+      "alignment": "ea",
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "4-8 Hz input"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "F3",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        8,
+        13
+      ],
+      "alignment": "ea",
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "8-13 Hz input"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "F4",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        13,
+        30
+      ],
+      "alignment": "ea",
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "13-30 Hz input"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "F5",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        30,
+        40
+      ],
+      "alignment": "ea",
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "30-40 Hz input"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "F6",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        4,
+        40
+      ],
+      "alignment": "ea",
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "Traditional 4-40 Hz input"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "F7",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        0.5,
+        13
+      ],
+      "alignment": "ea",
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "0.5-13 Hz input"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "F8",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        0.5,
+        30
+      ],
+      "alignment": "ea",
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "0.5-30 Hz input"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "F9",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        40,
+        100
+      ],
+      "alignment": "ea",
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "40-100 Hz input"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "SE_ea",
+      "protocol": "loso",
+      "bandpass": false,
+      "alignment": "ea",
+      "model_type": "eegnet_se",
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "F0 with SE channel attention and EA"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "A_kern250_ea",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        0.5,
+        13
+      ],
+      "alignment": "ea",
+      "kern_length": 250,
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "0.5-13 Hz, temporal kernel 250, EA"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "A_kern250_noea",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        0.5,
+        13
+      ],
+      "alignment": "none",
+      "kern_length": 250,
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "0.5-13 Hz, temporal kernel 250, no EA"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "A_kern500_ea",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        0.5,
+        13
+      ],
+      "alignment": "ea",
+      "kern_length": 500,
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "0.5-13 Hz, temporal kernel 500, EA"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "A_kern500_noea",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        0.5,
+        13
+      ],
+      "alignment": "none",
+      "kern_length": 500,
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "0.5-13 Hz, temporal kernel 500, no EA"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "MS_2branch_ea",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        0.5,
+        40
+      ],
+      "alignment": "ea",
+      "model_type": "multiscale",
+      "branches": [
+        [
+          125,
+          6
+        ],
+        [
+          250,
+          2
+        ]
+      ],
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "Two-branch wideband control with EA"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "MS_2branch_noea",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        0.5,
+        40
+      ],
+      "alignment": "none",
+      "model_type": "multiscale",
+      "branches": [
+        [
+          125,
+          6
+        ],
+        [
+          250,
+          2
+        ]
+      ],
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "Two-branch wideband control without EA"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "MS_3branch_ea",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        0.5,
+        40
+      ],
+      "alignment": "ea",
+      "model_type": "multiscale",
+      "branches": [
+        [
+          25,
+          1
+        ],
+        [
+          125,
+          5
+        ],
+        [
+          250,
+          2
+        ]
+      ],
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "Three-branch wideband control with EA"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "MS_3branch_noea",
+      "protocol": "loso",
+      "bandpass": true,
+      "bandpass_freq": [
+        0.5,
+        40
+      ],
+      "alignment": "none",
+      "model_type": "multiscale",
+      "branches": [
+        [
+          25,
+          1
+        ],
+        [
+          125,
+          5
+        ],
+        [
+          250,
+          2
+        ]
+      ],
+      "t_start": 2.0,
+      "t_end": 6.5,
+      "es_strategy": "test_set",
+      "description": "Three-branch wideband control without EA"
+    }
+  ]
+}

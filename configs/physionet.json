@@ -1,0 +1,107 @@
+{
+  "dataset": "physionet",
+  "experiments": [
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "Physionet_Traditional",
+      "dataset": "physionet",
+      "protocol": "subject_kfold",
+      "n_folds": 3,
+      "n_repeats": 5,
+      "channel_mode": "matched",
+      "n_classes": 4,
+      "n_channels": 22,
+      "sfreq": 160.0,
+      "kern_length": 80,
+      "bandpass": true,
+      "bandpass_freq": [
+        4,
+        40
+      ],
+      "alignment": "ea",
+      "model_type": "eegnet",
+      "t_start": 0.0,
+      "t_end": 4.0,
+      "es_strategy": "test_set",
+      "qc_min_class_trials": 10,
+      "description": "PhysioNet: T + EA + EEGNet; matched channels"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "Physionet_F0",
+      "dataset": "physionet",
+      "protocol": "subject_kfold",
+      "n_folds": 3,
+      "n_repeats": 5,
+      "channel_mode": "matched",
+      "n_classes": 4,
+      "n_channels": 22,
+      "sfreq": 160.0,
+      "kern_length": 80,
+      "bandpass": false,
+      "bandpass_freq": [
+        4,
+        40
+      ],
+      "alignment": "ea",
+      "model_type": "eegnet",
+      "t_start": 0.0,
+      "t_end": 4.0,
+      "es_strategy": "test_set",
+      "qc_min_class_trials": 10,
+      "description": "PhysioNet: F0 + EA + EEGNet; matched channels"
+    },
+    {
+      "filter_order": 4,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "max_epochs": 600,
+      "patience_es": 150,
+      "exp_id": "Physionet_SE",
+      "dataset": "physionet",
+      "protocol": "subject_kfold",
+      "n_folds": 3,
+      "n_repeats": 5,
+      "channel_mode": "matched",
+      "n_classes": 4,
+      "n_channels": 22,
+      "sfreq": 160.0,
+      "kern_length": 80,
+      "bandpass": false,
+      "bandpass_freq": [
+        4,
+        40
+      ],
+      "alignment": "ea",
+      "model_type": "eegnet_se",
+      "t_start": 0.0,
+      "t_end": 4.0,
+      "es_strategy": "test_set",
+      "qc_min_class_trials": 10,
+      "description": "PhysioNet: F0 + EA + EEGNet-SE; matched channels"
+    }
+  ]
+}

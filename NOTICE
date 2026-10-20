@@ -1,0 +1,53 @@
+MI EEG Spectral Gating
+
+Required Notice: MI EEG Spectral Gating project, https://github.com/zichuanwcy/mi-eeg-spectral-gating
+
+Project license
+---------------
+Original project code and documentation are offered under the PolyForm
+Noncommercial License 1.0.0, provided in LICENSE. Separately attributed
+third-party material retains its own license. The project license does not
+cancel rights granted by third-party licensors.
+
+EEG-TCNet reference and attribution
+----------------------------------
+The module src/mi_eeg/preprocessing/normalization.py references EEG-TCNet:
+https://github.com/iis-eth-zurich/eeg-tcnet
+
+The reviewed upstream source identifies:
+Copyright (C) 2020 ETH Zurich, Switzerland
+Authors: Thorir Mar Ingolfsson, Michael Hersche, Tino Rellstab
+SPDX-License-Identifier: Apache-2.0
+
+Reviewed upstream commit:
+363c7e52d19285b0bac9a8846bbdbd6aac5aa851
+https://github.com/iis-eth-zurich/eeg-tcnet/tree/363c7e52d19285b0bac9a8846bbdbd6aac5aa851
+
+A copy of the upstream Apache License 2.0 is included in:
+licenses/EEG-TCNet-Apache-2.0.txt
+
+This commit identifies the reference snapshot reviewed for this distribution.
+The exact upstream snapshot and line-level adaptation history used during
+original development were not recorded; the reviewed commit is not presented
+as a recovered historical development dependency. No complete EEG-TCNet source
+tree is bundled. The existing source reference is retained. Local modules were
+reorganized and their imports and command-line interfaces were adapted;
+scientific computations were preserved during the publication refactor.
+
+The project's noncommercial terms do not restrict independently obtained
+EEG-TCNet source or other material covered by its original Apache license.
+
+EEGNet method reference
+----------------------
+The model source retains the method citation to Lawhern et al.,
+"EEGNet: A Compact Convolutional Neural Network for EEG-based Brain-Computer
+Interfaces", Journal of Neural Engineering, 2018. This is a method attribution
+and does not assert that a separate third-party EEGNet implementation is
+bundled or relicensed by this project.
+
+Dependencies and research materials
+----------------------------------
+Dependencies are obtained separately and retain their respective licenses.
+The project software license does not license the source datasets, model
+weights, manuscript, or supplementary research data. These materials are not
+bundled with this code distribution.

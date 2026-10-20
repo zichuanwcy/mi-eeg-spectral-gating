@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mi-eeg-spectral-gating"
+version = "0.1.0"
+description = "Subject-level spectral preprocessing selection for motor-imagery EEG"
+readme = "README.md"
+license = "PolyForm-Noncommercial-1.0.0"
+license-files = ["LICENSE", "NOTICE", "licenses/EEG-TCNet-Apache-2.0.txt"]
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[project.urls]
+Repository = "https://github.com/zichuanwcy/mi-eeg-spectral-gating"
+Issues = "https://github.com/zichuanwcy/mi-eeg-spectral-gating/issues"
+
+[project.scripts]
+mi-eeg = "mi_eeg.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.data-files]
+"share/mi-eeg-spectral-gating/configs" = ["configs/bci2a.json", "configs/openbmi.json", "configs/physionet.json"]

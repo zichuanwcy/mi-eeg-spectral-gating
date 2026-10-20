@@ -1,0 +1,11 @@
+# Inferred from imports; not a recovered historical lock or tested training environment.
+numpy
+scipy
+torch
+scikit-learn
+pandas
+mne
+moabb
+matplotlib
+Pillow
+tifffile
